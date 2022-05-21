@@ -1,0 +1,10 @@
+QUESTION:Write a python program to replace a given key value pair in a dictionary.
+        a={1:2,2:3,3:4}
+        b=input('enter key to be replaced')
+        c=input('enter new key')
+        d=input('enter new value')
+        if b in a:
+          a.pop(b)
+          a[c]=d
+        else:
+          print('key not')
