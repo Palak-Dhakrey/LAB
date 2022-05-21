@@ -1,0 +1,5 @@
+QUESTION:Write a python program to merge two dictionary together.
+         d1={'a':1, 'b':2}
+         d2={'c':3, 'd':4}
+         a.update(b)
+         print(a)
