@@ -1,0 +1,11 @@
+QUESTION:Create an empty dictionary allow 4 friends to enter their favourite language as values and use keys as their names.Assume that the nmaes are unique.
+         favlang={}
+         a=input("enter your favourite language palak\n")
+         b=input("enter your favourite language kajal\n")
+         c=input("enter your favourite language sonali\n")
+         d=input("enter your favourite language harshita\n")
+         favlang['palak']=a
+         favlang['kajal']=b
+         favlang['sonali']=c
+         favlang['harshita']=d
+         print(favlang)
