@@ -1,0 +1,5 @@
+QUESTION:Write a program to fetch all the values of a dictionary in the given format using items function.
+         dict={'a':1, 'b':2, 'c':3}
+         b=a.items()
+          for i,j in b:
+            print(i,'=',j)
