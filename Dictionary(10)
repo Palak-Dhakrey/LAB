@@ -1,0 +1,6 @@
+QUESTION:Write a python program to check a dictionary is empty or not.
+         mydict={}
+         if(len(my_dict)==0):
+             print('my dictionary is empty')
+         else:
+             print('my dictionary is not empty')
