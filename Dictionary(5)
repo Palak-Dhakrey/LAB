@@ -1,0 +1,5 @@
+QUESTION:How to update an existing dictionary without using update function.
+         a={'A':2, 'B':4, 'C':7)
+         b={'G':4, 'D':7, 'E':4}
+         x=a+b
+         print(x)
