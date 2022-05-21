@@ -1,0 +1,9 @@
+QUESTION:Write a python program to short a dictionary by key.
+         dict={}
+         dict[1]=5
+         dict[6]=67
+         dict[3]=60
+         for i in sorted(dict):
+             print((i,dict[i],end-"")
+             
+ OUTPUT:(1,5) (3,60) (6,67)            
