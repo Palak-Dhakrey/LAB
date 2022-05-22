@@ -1,0 +1,9 @@
+QUESTION:Write a python function called multiply to multiply all the numbers in a list together and return that value.The function should be created in such a way that it will work for both lists,tuple,and sets.
+         def multiply(numbers):
+              total =1
+              for x in numbers:
+                  total += x
+              return total
+              
+INPUT:multiply[(1,2,3,4)]
+OUTPUT:24
