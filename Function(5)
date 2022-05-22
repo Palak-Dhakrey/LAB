@@ -1,0 +1,11 @@
+QUESTION:Write a python function called squareMachine that takes in a list and returns another list whose elements are the values of the first list squared.
+         def squareMachine(theList):
+             i=0
+             while i<len(theList):
+                 theList[i] = theList[i] **2
+                 i +=1
+             return theList
+             
+             
+INPUT:squareMachine([1,1,2,2,3,4,5,6])
+OUTPUT:[1,1,4,4,9,16,25,36]
