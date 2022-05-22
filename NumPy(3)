@@ -1,0 +1,5 @@
+QUESTION:Your task is to print array of size N*M with its main diagonal elements as 1's and 0's  everywhere else.
+         import numpy as np
+         r,c=list(map(int,input().split()))
+         arr=np.eye(r,c)
+         print(array)
