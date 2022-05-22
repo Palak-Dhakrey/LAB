@@ -1,0 +1,5 @@
+QUESTION:You are given a space separated list of nine integers.Your task is to convert this into 3*3 numpy array.
+         import numpy as np
+         ls=list(map(float,input().split()))
+         ar=np.array(ls).reshape(3,3)
+         print(ar)
