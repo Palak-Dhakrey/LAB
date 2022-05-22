@@ -1,0 +1,5 @@
+QUESTION:Make 5*2 int array in a range b/w 500 to 320 having difference b/w each elements is 10?
+         import numpy as np
+         arr=np.arange(500,320,10)
+         arr=arr.reshape(5,2)
+         print(arr)
