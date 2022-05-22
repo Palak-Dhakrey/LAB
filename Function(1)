@@ -1,0 +1,12 @@
+QUESTION:Write a python function called max_of_three to find the maximum value between three numbers.Do not use the max() function.
+         def max_of_two(x,y):
+             if x>y:
+                 return x
+               return y
+               
+         def max_of_three(x,y,z):
+             return max_of_two(x,max_of_two(y,z))
+
+          
+INPUT:max-of_three(2,5,1)
+OUTPUT:5
