@@ -1,0 +1,15 @@
+QUESTION:Write a python function called dictDecomposer that takes in a dictionary and prints two lines of text:
+(i) One line stating the keys of the dictionary 
+(ii)One line stating the values of the dictionary
+
+def dictDecomposer(theDict):
+    print(f'the key of the dictionary are {theDict.keys()}')
+   
+testDictionary={
+     'firstName': 'Palak',
+     'lastName': 'Dhakrey'
+}
+
+INPUT:dictDecomposer(testDictionary)
+OUTPUT:the key of the dictionary are dict_keys(['firstName', 'lastName])
+        
