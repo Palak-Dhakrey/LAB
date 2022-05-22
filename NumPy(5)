@@ -1,0 +1,15 @@
+QUESTION:You are given a N*M integer array matrix with space separated elements 
+         Your task is to print the transpose and flattern results.
+         
+         import numpy as np
+         aa=[]
+         r,c=list(map(int,input('Enter').split()))
+         for i in range(c):
+             for j in range(r):
+                 a=int(input('Enter'))
+                 aa.append(a)
+         aa=np.array(aa)
+         aa=np.reshape(r,c))
+         print(np.transpose(aa))
+         print(np.ravel(aa))
+         
