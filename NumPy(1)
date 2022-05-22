@@ -1,0 +1,5 @@
+QUESTION:You are given a space separated list of numbers,Your task is to print a reversed array with the element type float.
+          import numpy as np
+          ls=list(map(float,input().split()))
+          ar=np.array(ls)
+          print(ar[::-1])
