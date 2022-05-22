@@ -1,0 +1,5 @@
+QUESTION:Write a program to check he/she is able to vote or not.
+         def vote(a):
+             return a>=18
+         a=int(input('Enter the age'))
+         print(vote(a))
