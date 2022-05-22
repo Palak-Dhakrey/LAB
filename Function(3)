@@ -1,0 +1,16 @@
+QUESTION:Write a python function called caseCounter that counts the number of lowercase and uppercase characters in a string.If you're up to it,store the lowercase and uppercase variables in a dictionary wihtin the function. The function should print two sentences that state the number of uppercase and lowercase characters.
+         def caseCounter(s):
+             d={"UPPER_CASE":0,"LOWER_CASE":0}
+             for c in s:
+                 if c.isupper():
+                     d['UPPER_CASE'] += 1
+                 elif c.lower():
+                     d['LOWER_CASE'] += 1
+                 else:
+                     pass
+             print(f'No. of uppercase characters: {d['UPPER_CASE']}') 
+             print(f'No. of lowercase characters: {d['LOWER_CASE']}')  
+             
+INPUT:caseCounter('Nick Palki')
+OUTPUT:No. of uppercase characters:2
+       No. of lowercase characters:8
