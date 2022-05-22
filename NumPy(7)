@@ -1,0 +1,4 @@
+QUESTION:Convert 1D array to a 2D array with 2 rows.
+         arr=np.arange(10)
+         arr.reshape(2,-1)
+         print(arr)
