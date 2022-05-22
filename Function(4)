@@ -1,0 +1,6 @@
+QUESTION:Write a python function called duplicateEliminator that takes in a list,eliminates any duplicte values,and returns a set.
+         def duplicteEliminator(1):
+             return set(1)
+             
+INPUT:duplicateEliminator([1,1,2,2,3,3,4,4,5,5])
+OUTPUT:{1,2,3,4,5}
