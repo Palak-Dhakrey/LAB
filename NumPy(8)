@@ -1,0 +1,4 @@
+QUESTION:Write a numpy program to generate five random numbers from the normal distribution.
+         import numpy as np
+         x=np.random.normal(size=5)
+         printt(x)
