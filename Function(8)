@@ -1,0 +1,10 @@
+QUESTION:Write a function to calculate power of a number raised to other.
+         def power(a,b):
+             power=1
+             for i in range (a,b):
+                 power=power*a
+             return power
+         a=int(input())
+         b=int(input())
+         result=pow(a,b)
+        print(result)
