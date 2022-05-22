@@ -1,0 +1,5 @@
+QUESTION:Create a 3*4 two-dimentional ndarray from the range of integers 13 to 24.
+         import numpy as np
+         s=np.arange(13,25)
+         r=s.reshape((3,4))
+         print(r)
