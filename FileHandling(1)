@@ -1,0 +1,5 @@
+QUESTION:Reading a file's entire content.
+         file=open('palak.txt','r')
+         str=file.read()
+         print(str)
+         file.close()
