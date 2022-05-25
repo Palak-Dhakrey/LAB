@@ -1,0 +1,7 @@
+QUESTION:Reading a complete file-line by line.
+         file=open('palak.txt','r')
+         str=""
+         while str:
+             str=file.readline()
+             print(str,end=" ")
+         file.close()
