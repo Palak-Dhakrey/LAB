@@ -1,0 +1,5 @@
+QUESTION:Reading the complete file in a list.
+         file=open("palak.txt","r")
+         s=file.readlines()
+         print(s)
+         file.close()
