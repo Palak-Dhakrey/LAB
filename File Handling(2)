@@ -1,0 +1,9 @@
+QUESTION:Reading a file's first three lines-line by line.
+         file=open('palak.txt','r')
+         str=file.readline()
+         print(str,end='')
+         str=file.readline()
+         print(str,end='')
+         str=file.readline()
+         print(str,end='')
+         file.close()
