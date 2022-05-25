@@ -1,0 +1,6 @@
+QUESTION:Write a program to display the size of a file in bytes.
+         file=open("palak.txt","r")
+         str=file.read()
+         size=len(str)
+         print("size of the given line is ")
+         print(size,"bytes")
