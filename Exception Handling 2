@@ -1,0 +1,11 @@
+try:
+  a=int(input(" "))
+  b=int(input(" "))
+  c=(a/b)
+  print(c)
+except ZeroDivisionError:
+  print('divided by zero')
+else:
+  print('not divided by zero')
+finally:
+  print('none of two')
